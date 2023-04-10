@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "python-tic-tac-toe-game"
+version = "0.1.0"
+description = ""
+authors = ["utility4u <benedikthofirek@gmail.com>"]
+readme = "README.md"
+packages = [{include = "python_tic_tac_toe_game"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
